@@ -53,7 +53,7 @@ function App() {
             <List cryptos={cryptos}/>
             <div className='container__div-div'>
               <Barra2 dataBarra2={dataBarra2}/>
-              <Circle />
+              <Circle /> 
             </div>
           </div>
         </div>
