@@ -1,0 +1,34 @@
+.elemento{
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+}
+.elemento img{
+    width: 18%;
+}
+.elemento__div{
+    width: 75%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elemento div h3{
+    font-size: 1em;
+}
+.elemento__div > p{
+    font-weight: 600;
+}
+.elemento__div div p{
+    font-size: 0.8em;
+    color: rgb(174, 147, 201);
+}
+@media screen and (min-width: 700px){
+    .elemento div h3{
+        font-size: 1.2em;
+    }
+    .elemento__div div p{
+        font-size: 1em;
+        color: rgb(174, 147, 201);
+    }
+}

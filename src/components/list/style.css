@@ -1,0 +1,13 @@
+.list{
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+    background-color: white;
+}
+.list h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
