@@ -31,6 +31,32 @@
 .nav-desktop{
     display: none;
 }
+#modal{
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+#modal ul{
+    padding: 5px;
+    list-style: none;
+}
+#modal ul li a{
+    color: rgba(28, 16, 61, 0.842);
+
+    text-decoration: none;
+    font-weight: 400;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+#modal ul li a i{
+    color: rgba(28, 16, 61, 0.842);
+}
 @media (min-width: 1150px){
     .nav{
         display: none;

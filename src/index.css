@@ -9,6 +9,7 @@
 body{
   font-family: 'Poppins', sans-serif;
   background-color: rgb(238, 230, 247);
+  padding-bottom: 30px;
 }
 .container{
   width: 100%;
