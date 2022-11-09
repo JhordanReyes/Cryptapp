@@ -54,6 +54,11 @@ body{
   gap: 5px;
   align-items: center;
 }
+.carga{
+  width: 400px;
+  height: 200px;
+  background-color: white;
+}
 @media screen and (min-width: 850px){
   .container__div{
     flex-direction: row;
@@ -74,5 +79,8 @@ body{
   .main{
     margin-left: 25%;
     width: 75%;
+  }
+  .container{
+    padding-top: 1px;
   }
 }

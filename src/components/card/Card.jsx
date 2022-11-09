@@ -17,7 +17,7 @@ const Card = () => {
         getCoin();
     }, [])
     if (loading) {
-        return <p>Loading...</p>
+        return <div className='carga'></div>
     }
     return (
         <div className='card'>
